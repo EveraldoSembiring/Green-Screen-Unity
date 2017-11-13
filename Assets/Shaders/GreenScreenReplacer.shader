@@ -7,6 +7,7 @@
 		_GreenColor("Green Color", Color) = (0,0,0,0)
 		_Sensitivity("Threshold Sensitivity", Range(0,1)) = 0.5
 		_Smooth("Smoothing", Range(0,1)) = 0.5
+		[Toggle]_ShowBackground("Show Only Background", Float) = 0
 		[Toggle]_ShowOriginal("Show Original Video", Float) = 0
 	}
 	SubShader
@@ -48,12 +49,18 @@
 			float _Sensitivity;
 			float _Smooth;
 			float _ShowOriginal;
+			float _ShowBackground;
 
 			fixed4 frag (v2f i) : SV_Target
 			{
 				fixed4 col = tex2D(_MainTex, i.uv);
-
-				if (!_ShowOriginal)
+				
+				if (_ShowBackground)
+				{
+					fixed4 col2 = tex2D(_TexReplacer, i.uv);
+					col = col2;
+				}
+				else if (!_ShowOriginal)
 				{
 					fixed4 col2 = tex2D(_TexReplacer, i.uv);
 

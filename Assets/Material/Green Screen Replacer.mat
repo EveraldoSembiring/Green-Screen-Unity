@@ -71,6 +71,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Sensitivity: 0.1
+    - _ShowBackground: 0
     - _ShowOriginal: 0
     - _Slope: 0
     - _Smooth: 0

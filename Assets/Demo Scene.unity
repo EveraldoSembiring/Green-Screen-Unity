@@ -184,7 +184,7 @@ GameObject:
   - component: {fileID: 15461435}
   - component: {fileID: 15461437}
   - component: {fileID: 15461436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967039
+    m_Bits: 256
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 262096184}
   - component: {fileID: 262096183}
   - component: {fileID: 262096182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 839877423}
   - component: {fileID: 839877425}
   - component: {fileID: 839877424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 924624580}
   - component: {fileID: 924624579}
   - component: {fileID: 924624581}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Motivation Video
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -567,7 +567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1170283791}
   - component: {fileID: 1170283792}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Earth From Space [ISS Time-lapse In 4K]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +630,7 @@ GameObject:
   - component: {fileID: 1849946189}
   - component: {fileID: 1849946190}
   - component: {fileID: 1849946191}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Video Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -661,7 +661,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 4294967039
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
